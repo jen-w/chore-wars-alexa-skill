@@ -1,0 +1,34 @@
+{
+  "name": "chore-wars-alexa-skill",
+  "version": "1.0.0",
+  "description": "Chore Wars Alexa skill",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix && npm run format",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jen-w/chore-wars-alexa-skill.git"
+  },
+  "keywords": [
+    "Alexa",
+    "skill"
+  ],
+  "author": "jen-w",
+  "license": "Amazon Software License",
+  "bugs": {
+    "url": "https://github.com/jen-w/chore-wars-alexa-skill/issues"
+  },
+  "homepage": "https://github.com/jen-w/chore-wars-alexa-skill#readme",
+  "dependencies": {
+    "ask-sdk": "^2.6.0",
+    "aws-sdk": "2.637.0",
+    "ask-sdk-s3-persistence-adapter": "^2.6.0",
+    "i18next": "^10.5.0",
+    "i18next-sprintf-postprocessor": "^0.2.2",
+    "rss-parser": "^3.13.0"
+  }
+}
